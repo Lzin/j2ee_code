@@ -1,4 +1,4 @@
-package com.lz.domain;
+package com.lz.reflect_test.domain;
 
 public class Person {
     private String name;
@@ -41,7 +41,7 @@ public class Person {
                 '}';
     }
 
-    public void eat(String mName) {
-        System.out.println(mName + " eat something");
+    public void eat() {
+        System.out.println(" eat something");
     }
 }

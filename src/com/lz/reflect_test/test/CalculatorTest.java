@@ -1,6 +1,6 @@
-package com.lz.test;
+package com.lz.reflect_test.test;
 
-import com.lz.junit.Calculator;
+import com.lz.reflect_test.junit.Calculator;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

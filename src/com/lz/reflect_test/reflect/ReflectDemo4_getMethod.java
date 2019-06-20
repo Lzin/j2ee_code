@@ -1,11 +1,9 @@
-package com.lz.reflect;
+package com.lz.reflect_test.reflect;
 
-import com.lz.domain.Person;
+import com.lz.reflect_test.domain.Person;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.MissingResourceException;
 
 public class ReflectDemo4_getMethod {
 
@@ -42,9 +40,9 @@ public class ReflectDemo4_getMethod {
             /**
              * getMethod:方法名 参数列表
              * */
-            Method eat_method = mReflectPerson.getMethod("eat", String.class);
+            Method eat_method = mReflectPerson.getMethod("eat");
             //进行参数的执行
-            eat_method.invoke(mPerson, "Lzinner");
+            eat_method.invoke(mPerson);
             Method[] methods = mReflectPerson.getMethods();
             for (Method method : methods) {
                 System.out.println(method);

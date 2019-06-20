@@ -1,11 +1,9 @@
-package com.lz.reflect;
+package com.lz.reflect_test.reflect;
 
-import com.lz.domain.Person;
+import com.lz.reflect_test.domain.Person;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.util.Objects;
 
 public class ReflectDemo3_getConstructor {
 

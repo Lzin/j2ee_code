@@ -1,6 +1,6 @@
-package com.lz.reflect;
+package com.lz.reflect_test.reflect;
 
-import com.lz.domain.Person;
+import com.lz.reflect_test.domain.Person;
 
 /**
  * 获取class的三种方式:
@@ -17,7 +17,7 @@ public class ReflectDemo1 {
         //1.Class.forName(“全类名”); 将字节码文件加载入内存，返回class
         Class cls1 = null;
         try {
-            cls1 = Class.forName("com.lz.domain.Person");
+            cls1 = Class.forName("com.lz.reflect_test.domain.Person");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

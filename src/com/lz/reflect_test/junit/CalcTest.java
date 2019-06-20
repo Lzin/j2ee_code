@@ -1,4 +1,4 @@
-package com.lz.junit;
+package com.lz.reflect_test.junit;
 
 public class CalcTest {
     public static void main(String[] args) {

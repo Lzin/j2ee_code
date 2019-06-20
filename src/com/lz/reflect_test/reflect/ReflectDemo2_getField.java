@@ -1,9 +1,8 @@
-package com.lz.reflect;
+package com.lz.reflect_test.reflect;
 
-import com.lz.domain.Person;
+import com.lz.reflect_test.domain.Person;
 
 import java.lang.reflect.Field;
-import java.util.Objects;
 
 /**
  * 1.获取成员变量们
