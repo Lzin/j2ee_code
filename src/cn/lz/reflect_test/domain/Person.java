@@ -1,4 +1,4 @@
-package com.lz.reflect_test.domain;
+package cn.lz.reflect_test.domain;
 
 public class Person {
     private String name;

@@ -1,10 +1,11 @@
-package com.lz.reflect_test.test;
+package cn.lz.reflect_test.test;
 
-import com.lz.reflect_test.junit.Calculator;
+import cn.lz.reflect_test.junit.Calculator;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
 /**
  * 测试add方法
  * */

@@ -1,6 +1,6 @@
-package com.lz.reflect_test.reflect;
+package cn.lz.reflect_test.reflect;
 
-import com.lz.reflect_test.domain.Person;
+import cn.lz.reflect_test.domain.Person;
 
 import java.lang.reflect.Field;
 

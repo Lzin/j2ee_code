@@ -1,4 +1,4 @@
-package com.lz.reflect_test.reflect;
+package cn.lz.reflect_test.reflect;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,8 +20,8 @@ public class ReflectTest {
         Properties mPro=new Properties();
         //1.2加载配置文件，转换为一个集合
         //1.2.1获取配置文件的路径（通过类加载器获取字节流）
-        ClassLoader classLoader=ReflectTest.class.getClassLoader();
-        InputStream mInstream=classLoader.getResourceAsStream("com/lz/reflect_test/pro.properties");
+        ClassLoader classLoader= ReflectTest.class.getClassLoader();
+        InputStream mInstream=classLoader.getResourceAsStream("cn/lz/reflect_test/pro.properties");
         try {
             mPro.load(mInstream);
         } catch (IOException e) {
