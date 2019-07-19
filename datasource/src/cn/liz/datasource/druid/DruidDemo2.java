@@ -10,6 +10,7 @@ import java.sql.SQLException;
  * 使用新的工具类
  */
 public class DruidDemo2 {
+
     private static PreparedStatement mPstm = null;
     private static Connection mConn = null;
 

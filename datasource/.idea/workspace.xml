@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d366b110-27f4-46d8-8d3c-2a94d29ba912" name="Default Changelist" comment="" />
+    <list default="true" id="d366b110-27f4-46d8-8d3c-2a94d29ba912" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/liz/domain/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datasource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasource/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasource/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasource/cn/liz/datasource/druid/DruidDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasource/cn/liz/datasource/druid/DruidDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasource/cn/liz/datasource/utils/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasource/cn/liz/datasource/utils/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasource/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasource/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/liz/datasource/utils/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/liz/datasource/utils/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ideaProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ideaProjects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ideaProjects/jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ideaProjects/jdbc/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,27 +33,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/liz/datasource/utils/JDBCUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="600">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="initializer##0;class#JDBCUtil#0" />
+                <element signature="e#1029#1030#0" expanded="true" />
                 <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
                 <element signature="e#1821#1822#0" expanded="true" />
               </folding>
             </state>
@@ -39,10 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo2.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,68 +62,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/java/sql/PreparedStatement.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="479" column="12" selection-start-line="479" selection-start-column="12" selection-end-line="479" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/java/sql/Connection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="138" column="22" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/javax/sql/DataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.base/java/util/Properties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="401" column="29" selection-start-line="401" selection-start-column="29" selection-end-line="401" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidDataSourceFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="206" column="33" selection-start-line="206" selection-start-column="33" selection-end-line="206" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5424">
-              <caret line="729" column="16" selection-start-line="729" selection-start-column="16" selection-end-line="729" selection-end-column="16" />
+            <state relative-caret-position="1800">
+              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
               <folding>
-                <element signature="e#26062#26063#0" expanded="true" />
-                <element signature="e#26112#26113#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/druid.properties">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/core/JdbcOperations.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="575">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.base/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <element signature="e#26596#26597#0" expanded="true" />
+                <element signature="e#26636#26637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/core/BeanPropertyRowMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/liz/domain/Emp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4875">
+              <caret line="259" column="55" selection-start-line="259" selection-start-column="49" selection-end-line="259" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -126,24 +137,32 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ds</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/src/cn/liz/datasource/c3p0/C3P0Demo1.java" />
-        <option value="$PROJECT_DIR$/src/druid.properties" />
         <option value="$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo1.java" />
         <option value="$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo2.java" />
+        <option value="$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo1.java" />
+        <option value="$PROJECT_DIR$/src/druid.properties" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/cn/liz/domain/Emp.java" />
+        <option value="$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo2.java" />
         <option value="$PROJECT_DIR$/src/cn/liz/datasource/utils/JDBCUtil.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2033" />
-    <option name="y" value="211" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="135" />
+    <option name="y" value="80" />
     <option name="width" value="1934" />
     <option name="height" value="805" />
   </component>
@@ -153,12 +172,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="datasource" type="b2602c69:ProjectViewProjectNode" />
               <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datasource" type="b2602c69:ProjectViewProjectNode" />
@@ -209,27 +235,45 @@
               <item name="datasource" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liz" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbctemplate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563453074388" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Josepfu" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563516686916" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ideaProjects/jdbc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\j2ee_code\datasource\src" />
       <recent name="D:\j2ee_code\datasource\libs" />
+      <recent name="D:\j2ee_code\datasource\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,51 +288,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DruidDemo2">
-    <configuration name="C3P0Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liz.datasource.c3p0.C3P0Demo1" />
+  <component name="RunManager" selected="JUnit.JdbcTemplateDemo2.test">
+    <configuration name="JdbcTemplateDemo2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datasource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.liz.datasource.c3p0.*" />
+          <option name="PATTERN" value="cn.liz.jdbctemplate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.liz.jdbctemplate" />
+      <option name="MAIN_CLASS_NAME" value="cn.liz.jdbctemplate.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DruidDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liz.datasource.druid.DruidDemo1" />
+    <configuration name="JdbcTemplateDemo2.testQueryForAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datasource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.liz.datasource.druid.*" />
+          <option name="PATTERN" value="cn.liz.jdbctemplate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.liz.jdbctemplate" />
+      <option name="MAIN_CLASS_NAME" value="cn.liz.jdbctemplate.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testQueryForAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DruidDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liz.datasource.druid.DruidDemo2" />
+    <configuration name="JdbcTemplateDemo2.testQueryForCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datasource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.liz.datasource.druid.*" />
+          <option name="PATTERN" value="cn.liz.jdbctemplate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.liz.jdbctemplate" />
+      <option name="MAIN_CLASS_NAME" value="cn.liz.jdbctemplate.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testQueryForCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateDemo2.testQueryForJavaBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datasource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liz.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.liz.jdbctemplate" />
+      <option name="MAIN_CLASS_NAME" value="cn.liz.jdbctemplate.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testQueryForJavaBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datasource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liz.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.liz.jdbctemplate" />
+      <option name="MAIN_CLASS_NAME" value="cn.liz.jdbctemplate.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testQueryForJavaBeanAuto" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DruidDemo2" />
-        <item itemvalue="Application.DruidDemo1" />
-        <item itemvalue="Application.C3P0Demo1" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.test" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testQueryForCount" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testQueryForJavaBeanAuto" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testQueryForJavaBean" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testQueryForAll" />
       </list>
     </recent_temporary>
   </component>
@@ -304,6 +391,10 @@
       <updated>1563436175829</updated>
       <workItem from="1563436178457" duration="2747000" />
       <workItem from="1563447703779" duration="5419000" />
+      <workItem from="1563454045507" duration="178000" />
+      <workItem from="1563498463351" duration="11393000" />
+      <workItem from="1563529426133" duration="88000" />
+      <workItem from="1563538168707" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="这段时间记录的一些笔记 主要是学习使用druid和c3p0，">
       <created>1563453084465</created>
@@ -315,13 +406,46 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBean - 2019.07.19 at 12h 08m 34s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBeanAuto - 2019.07.19 at 12h 16m 51s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBeanAuto - 2019.07.19 at 12h 17m 55s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBeanAuto - 2019.07.19 at 12h 21m 15s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBeanAuto - 2019.07.19 at 12h 21m 32s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBeanAuto - 2019.07.19 at 12h 23m 44s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBeanAuto - 2019.07.19 at 12h 25m 00s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForJavaBeanAuto - 2019.07.19 at 12h 26m 34s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForJavaBeanAuto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_testQueryForCount - 2019.07.19 at 12h 35m 14s.xml">
+      <configuration name="JdbcTemplateDemo2.testQueryForCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo2_test - 2019.07.19 at 14h 10m 56s.xml">
+      <configuration name="JdbcTemplateDemo2.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8166000" />
+    <option name="totallyTimeSpent" value="20155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -330,7 +454,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.03452244" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29113925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +464,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.1657077" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.1657077" />
+      <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -380,13 +505,6 @@
     <entry file="jar://$PROJECT_DIR$/libs/c3p0-0.9.5.2.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.base/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -405,55 +523,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5424">
-          <caret line="729" column="16" selection-start-line="729" selection-start-column="16" selection-end-line="729" selection-end-column="16" />
-          <folding>
-            <element signature="e#26062#26063#0" expanded="true" />
-            <element signature="e#26112#26113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidDataSourceFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="206" column="33" selection-start-line="206" selection-start-column="33" selection-end-line="206" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.base/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="401" column="29" selection-start-line="401" selection-start-column="29" selection-end-line="401" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="479" column="12" selection-start-line="479" selection-start-column="12" selection-end-line="479" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="138" column="22" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="350">
           <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -461,10 +533,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11325">
+          <caret line="479" column="12" selection-start-line="479" selection-start-column="12" selection-end-line="479" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="138" column="22" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.sql/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.base/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8675">
+          <caret line="401" column="29" selection-start-line="401" selection-start-column="29" selection-end-line="401" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidDataSourceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4750">
+          <caret line="206" column="33" selection-start-line="206" selection-start-column="33" selection-end-line="206" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13425">
+          <caret line="729" column="16" selection-start-line="729" selection-start-column="16" selection-end-line="729" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/druid.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/liz/datasource/druid/DruidDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="-51">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/core/RowMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/core/JdbcOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JetBrains/jdk/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="e#26596#26597#0" expanded="true" />
+            <element signature="e#26636#26637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/core/BeanPropertyRowMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/liz/domain/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4875">
+          <caret line="259" column="55" selection-start-line="259" selection-start-column="49" selection-end-line="259" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/liz/jdbctemplate/JdbcTemplateDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -473,21 +673,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/liz/datasource/utils/JDBCUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="600">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#JDBCUtil#0" />
+            <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
             <element signature="e#1821#1822#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/druid.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
